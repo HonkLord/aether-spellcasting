@@ -1,0 +1,46 @@
+{
+  "id": "aether-spellcasting",
+  "title": "Aether Spellcasting",
+  "description": "A module that implements a custom spellcasting system using Aether points for D&D 5e in Foundry VTT.",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "10",
+    "verified": "12",
+    "maximum": "12.331"
+  },
+  "authors": [
+    {
+      "name": "Your Name"
+    }
+  ],
+  "esmodules": ["scripts/aether-spellcasting.js"],
+  "styles": ["styles/aether-spellcasting.css"],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "languages/en.json"
+    }
+  ],
+  "url": "https://github.com/HonkLord/aether-spellcasting",
+  "manifest": "https://raw.githubusercontent.com/HonkLord/aether-spellcasting/main/module.json",
+  "download": "https://github.com/HonkLord/aether-spellcasting/archive/v1.0.0.zip",
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {
+          "minimum": "2.1.0"
+        }
+      }
+    ],
+    "requires": [
+      {
+        "id": "midi-qol",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  }
+}
